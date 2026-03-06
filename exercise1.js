@@ -20,7 +20,7 @@ app.get('/', function(req, res) {
 
 
 // Write to a file 
-
+// Access like: URL/wfile?first_name=Cris&Dept=CS&Likes=Chocolate
 app.get('/wfile', function(req, res) {
   const myquery = req.query;
   
